@@ -5,7 +5,8 @@ module.exports = function (grunt) {
 			compile: {
 				files: {
 					'test/tmp/compile.css': 'test/fixtures/test.scss',
-					'test/tmp/compile2.css': 'test/fixtures/test.scss'
+					'test/tmp/compile2.css': 'test/fixtures/test.scss',
+					'test/tmp/error.css': 'test/fixtures/error.scss'
 				}
 			},
 			includePaths: {
